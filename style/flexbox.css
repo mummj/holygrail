@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+main{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    height:300px;
+    justify-content: space-between;
+    
+
+}
+main > aside{
+    order:3;
+    flex:1;
+}
+main > nav {
+    order: 1;
+    flex:1;
+}
+main > .content {
+   display:flex;
+    order:2;
+    flex:1;
+}
+main > .deck{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+main > .card{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
