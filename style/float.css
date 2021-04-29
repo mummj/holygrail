@@ -3,20 +3,17 @@ main{
     height: calc(100% - 140%);
 }
 main > .content{
-    height:500px;  
+    height:100%;  
 }
 main > nav{
     float:left;
-    height:500px;
     width:250px;
 }
 main > aside{
     float:right;
-    height:500px;
     width:250px;
 }
 .deck{
-    height:500px;
     border: solid black 1px;
 }
 h2{
